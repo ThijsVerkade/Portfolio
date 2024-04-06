@@ -10,6 +10,7 @@ import PhpLogo from "../assets/images/php-logo.svg";
 import VuejsLogo from "../assets/images/vuejs-logo.svg";
 import SymfonyLogo from "../assets/images/symfony-logo.svg";
 import DockerLogo from "../assets/images/docker-logo.svg";
+import ExperienceCard from "./ExperienceCard";
 
 const BodyComponent = () => {
     return (
@@ -44,6 +45,21 @@ const BodyComponent = () => {
                         {image: ReactLogo, title: "React"},
                         {image: VuejsLogo, title: "Vuejs"}
                     ]}/>
+                </div>
+                <div>
+                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-white">
+                        Experience
+                    </h2>
+                    <ExperienceCard
+                        title="Software Developer"
+                        from="Jan 2022"
+                        until="Present"
+                        description="Developing awesome apps"
+                        location="Worldwide"
+                        website="https://www.example.com"
+                        jobInfo="Fun place to work!"
+                        skills={["JavaScript", "React", "Node.js"]}
+                    />
                 </div>
             </div>
         </div>
