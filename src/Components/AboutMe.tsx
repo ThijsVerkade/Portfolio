@@ -2,7 +2,7 @@ import { RiLinkedinFill, RiGithubLine } from '@remixicon/react';
 import React from "react";
 const AboutMe = () => {
     return (
-        <div id="aboutme" className="mt-10 max-w-4xl mx-auto px-8 py-6 space-y-6 flex sm:flex-col lg:flex-row sm:justify-center lg:justify-start bg-gray-900">
+        <div id="aboutme" className="mt-10 max-w-4xl mx-auto px-8 py-6 space-y-6 flex sm:flex-col lg:flex-row sm:justify-center lg:justify-start bg-backgroundSecondary">
             <div className="flex flex-col space-y-2 sm:space-y-4 lg:space-y-2">
                 <div className="w-36 h-36 rounded-full overflow-hidden border border-primary p-3">
                     <img src="yourImageUrl" alt="Profile" className="h-full w-full object-cover" />
@@ -18,7 +18,7 @@ const AboutMe = () => {
             </div>
             <div className="flex flex-col text-xl space-y-2 sm:pl-0 lg:pl-12 text-gray-100 text-left">
                 <h2 className="text-2xl  font-bold">About Me</h2>
-                <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-2 text-sm text-gray-600">
                     Our platform offers accessible, interactive and easy-to-understand programming lessons that make
                     learning code a breeze!
                 </p>

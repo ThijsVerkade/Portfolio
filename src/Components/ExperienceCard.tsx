@@ -28,7 +28,7 @@ type CardContentProps = {
 
 const CardHeader: React.FC<CardHeaderProps> = ({title, from, until, onClick}) => (
     <div
-        className="flex justify-between items-center cursor-pointer bg-gray-900 rounded-t-lg p-3 border-2 border-gray-700"
+        className="flex justify-between items-center cursor-pointer rounded-t-lg p-3 border-2 border-gray-700"
         onClick={onClick}
     >
         <h3 className="font-bold">{title}</h3>
@@ -37,7 +37,7 @@ const CardHeader: React.FC<CardHeaderProps> = ({title, from, until, onClick}) =>
 );
 
 const CardContent: React.FC<CardContentProps> = ({location, website, jobInfo, skills}) => (
-    <div className="rounded-b-lg p-3 bg-gray-900 border-t-0 border-2 border-gray-700 text-left">
+    <div className="rounded-b-lg p-3 border-t-0 border-2 border-gray-700 text-left">
         <div className="text-gray-600 flex text-xs">
             <div className="flex items-center pr-4">
                 <RiMapPinFill className="w-6 h-6 inline-block pr-2"/>
@@ -70,7 +70,7 @@ const CardContent: React.FC<CardContentProps> = ({location, website, jobInfo, sk
 const ExperienceCard: React.FC<ExperienceCardProps> = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="text-white shadow mb-4">
+        <div className="text-white shadow-lg mb-4">
             <CardHeader
                 title={props.title}
                 from={props.from}
