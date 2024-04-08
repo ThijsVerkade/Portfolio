@@ -7,7 +7,7 @@ const AboutMe = () => {
                 <div className="w-36 h-36 rounded-full overflow-hidden border border-primary p-3">
                     <img src="yourImageUrl" alt="Profile" className="h-full w-full object-cover" />
                 </div>
-                <div className="flex space-x-8 justify-between sm:justify-center rounded border border-primary ">
+                <div className="flex space-x-8 justify-between sm:justify-center rounded bg-primary ">
                     <a href="#" className="w-12 h-12 p-3 flex items-center justify-center">
                         <RiLinkedinFill className="h-6 w-6 text-gray-100" />
                     </a>

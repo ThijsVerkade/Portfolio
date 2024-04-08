@@ -4,7 +4,7 @@ import { RiLinkedinBoxFill, RiGithubFill } from '@remixicon/react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-backgroundPrimary text-backgroundSecondary p-5 mt-10 flex justify-between items-center">
+        <footer className="bg-backgroundPrimary text-white p-5 mt-10 flex justify-between items-center">
             <div className="w-1/5">
                 {/* replace "./logo.svg" with your desired logo source or component */}
                 <img src="./logo.svg" alt="Company Logo" className="h-10 w-10" />
